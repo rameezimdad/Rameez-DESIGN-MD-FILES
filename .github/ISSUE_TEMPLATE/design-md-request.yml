@@ -30,10 +30,10 @@ body:
     id: priority
     attributes:
       label: Do you want to prioritize your DESIGN.md generation request?
-      description: We have limited bandwidth across our open-source projects. For same-day delivery, you can prioritize your request at [getdesign.md/request](https://getdesign.md/request).
+      description: For faster delivery, message us directly on [WhatsApp](https://wa.me/923224083545).
       options:
         - "No"
-        - "Yes, I'll prioritize at getdesign.md/request"
+        - "Yes, I'll message on WhatsApp for faster delivery"
     validations:
       required: true
 
