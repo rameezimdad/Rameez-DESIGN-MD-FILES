@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <title>DESIGN.md — Curated Design Systems · Rameez Scripts</title>
   <meta name="description" content="A curated, copy-paste collection of DESIGN.md files — drop one into your project and your AI agent builds UI in that brand's design language. Curated by Rameez Scripts." />
-  <meta name="theme-color" content="#0a1530" />
+  <meta name="theme-color" content="#f2f0eb" />
   <link rel="icon" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGXxCe0WNNedmFqSWeF761f7Kshhc-NP5ChRQKz9fr97cO8VaarvD0KlCwqHojJVBWv-RAxfOqMI5rD4H78KnARyOc6QgwL1nRRFWf5xNQ1d9F9HfAoLPPGlTyP0GwNl4n-INMEsWLQ4Y7zJtz5bOdAnc2ePH9-uCRgshlo6BsS6gJEz6fhrxL-5U5O3sX/s160/channels4_profile.jpg" />
 
   <meta property="og:type" content="website" />
@@ -21,7 +21,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -46,27 +46,23 @@
 
   <main id="top">
 
-    <!-- Hero (navy band) -->
+    <!-- Hero (warm cream) -->
     <section class="hero">
-      <div class="hero__dots" aria-hidden="true">
-        <span class="d d1"></span><span class="d d2"></span><span class="d d3"></span><span class="d d4"></span>
-        <span class="d d5"></span><span class="d d6"></span><span class="d d7"></span><span class="d d8"></span>
-      </div>
       <div class="hero__content">
         <span class="hero__eyebrow"><span class="dot"></span> <span id="heroCount">72</span> design systems · ready for your AI agent</span>
         <h1 class="hero__title">Build UI that looks like the brands you admire.</h1>
         <p class="hero__sub">A curated collection of <strong>DESIGN.md</strong> files. Copy one into your project, tell your AI agent &ldquo;build me a page that looks like this,&rdquo; and generate high-quality UI that stays visually consistent with that design language.</p>
         <div class="hero__cta">
           <a class="btn btn--primary" href="#collection">Browse the collection</a>
-          <a class="btn btn--ghost-dark" href="https://github.com/rameezimdad/Rameez-DESIGN-MD-FILES" target="_blank" rel="noopener">View on GitHub</a>
+          <a class="btn btn--secondary" href="https://github.com/rameezimdad/Rameez-DESIGN-MD-FILES" target="_blank" rel="noopener">View on GitHub</a>
         </div>
 
         <!-- product mockup card -->
         <div class="hero__mock" aria-hidden="true">
-          <div class="mock__bar"><i></i><i></i><i></i><em>tesla / DESIGN.md</em></div>
+          <div class="mock__bar"><i></i><i></i><i></i><em>starbucks / DESIGN.md</em></div>
           <div class="mock__body">
             <div class="mock__swatches">
-              <i style="background:#0a1530"></i><i style="background:#5645d4"></i><i style="background:#dcecfa"></i><i style="background:#d9f3e1"></i><i style="background:#ffe8d4"></i>
+              <i style="background:#006241"></i><i style="background:#00754A"></i><i style="background:#1E3932"></i><i style="background:#cba258"></i><i style="background:#d4e9e2"></i>
             </div>
             <div class="mock__rows">
               <div class="mock__row accent"></div>
@@ -113,8 +109,8 @@
       </div>
     </section>
 
-    <!-- What is DESIGN.md -->
-    <section class="section section--ash" id="about">
+    <!-- What is DESIGN.md (dark-green espresso feature band) -->
+    <section class="section section--dark" id="about">
       <div class="wrap">
         <div class="section__head">
           <p class="section__eyebrow">The concept</p>
@@ -219,6 +215,11 @@
       <div class="modal__body" id="modalBody"></div>
     </div>
   </div>
+
+  <!-- Frap floating donate CTA (signature element) -->
+  <a class="frap" href="https://pay.rameezscripts.com" target="_blank" rel="noopener" aria-label="Donate to support this project" title="Donate / Support">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A4.5 4.5 0 0 0 12 5.5 4.5 4.5 0 0 0 2 8.5c0 2.29 1.51 4.04 3 5.5l7 7Z"/></svg>
+  </a>
 
   <!-- toast -->
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
