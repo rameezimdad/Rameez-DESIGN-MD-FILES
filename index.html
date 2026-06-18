@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <title>DESIGN.md — Curated Design Systems · Rameez Scripts</title>
   <meta name="description" content="A curated, copy-paste collection of DESIGN.md files — drop one into your project and your AI agent builds UI in that brand's design language. Curated by Rameez Scripts." />
-  <meta name="theme-color" content="#f5f1ec" />
+  <meta name="theme-color" content="#0a1530" />
   <link rel="icon" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGXxCe0WNNedmFqSWeF761f7Kshhc-NP5ChRQKz9fr97cO8VaarvD0KlCwqHojJVBWv-RAxfOqMI5rD4H78KnARyOc6QgwL1nRRFWf5xNQ1d9F9HfAoLPPGlTyP0GwNl4n-INMEsWLQ4Y7zJtz5bOdAnc2ePH9-uCRgshlo6BsS6gJEz6fhrxL-5U5O3sX/s160/channels4_profile.jpg" />
 
   <meta property="og:type" content="website" />
@@ -21,7 +21,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -46,16 +46,38 @@
 
   <main id="top">
 
-    <!-- Hero -->
+    <!-- Hero (navy band) -->
     <section class="hero">
-      <span class="hero__eyebrow"><span class="dot"></span> <span id="heroCount">72</span> design systems · ready for your AI agent</span>
-      <h1 class="hero__title">Build UI that looks like the brands you admire.</h1>
-      <p class="hero__sub">A curated collection of <strong>DESIGN.md</strong> files. Copy one into your project, tell your AI agent &ldquo;build me a page that looks like this,&rdquo; and generate high-quality UI that stays visually consistent with that design language.</p>
-      <div class="hero__cta">
-        <a class="btn btn--primary" href="#collection">Browse the collection</a>
-        <a class="btn btn--secondary" href="https://github.com/rameezimdad/Rameez-DESIGN-MD-FILES" target="_blank" rel="noopener">View on GitHub</a>
+      <div class="hero__dots" aria-hidden="true">
+        <span class="d d1"></span><span class="d d2"></span><span class="d d3"></span><span class="d d4"></span>
+        <span class="d d5"></span><span class="d d6"></span><span class="d d7"></span><span class="d d8"></span>
       </div>
-      <span class="hero__scroll">Scroll to explore<span class="chev"></span></span>
+      <div class="hero__content">
+        <span class="hero__eyebrow"><span class="dot"></span> <span id="heroCount">72</span> design systems · ready for your AI agent</span>
+        <h1 class="hero__title">Build UI that looks like the brands you admire.</h1>
+        <p class="hero__sub">A curated collection of <strong>DESIGN.md</strong> files. Copy one into your project, tell your AI agent &ldquo;build me a page that looks like this,&rdquo; and generate high-quality UI that stays visually consistent with that design language.</p>
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="#collection">Browse the collection</a>
+          <a class="btn btn--ghost-dark" href="https://github.com/rameezimdad/Rameez-DESIGN-MD-FILES" target="_blank" rel="noopener">View on GitHub</a>
+        </div>
+
+        <!-- product mockup card -->
+        <div class="hero__mock" aria-hidden="true">
+          <div class="mock__bar"><i></i><i></i><i></i><em>tesla / DESIGN.md</em></div>
+          <div class="mock__body">
+            <div class="mock__swatches">
+              <i style="background:#0a1530"></i><i style="background:#5645d4"></i><i style="background:#dcecfa"></i><i style="background:#d9f3e1"></i><i style="background:#ffe8d4"></i>
+            </div>
+            <div class="mock__rows">
+              <div class="mock__row accent"></div>
+              <div class="mock__row w90"></div>
+              <div class="mock__row w70"></div>
+              <div class="mock__row w80"></div>
+              <div class="mock__row w50"></div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Stats -->
@@ -141,7 +163,7 @@
       <div class="support__inner">
         <h2 class="support__title">Found this useful?</h2>
         <p class="support__sub">This collection is free and open-source. If it saved you time, a small donation keeps it growing and supports more open tools from Rameez Scripts.</p>
-        <a class="btn btn--fin" href="https://pay.rameezscripts.com" target="_blank" rel="noopener">Donate / Support the project</a>
+        <a class="btn btn--primary" href="https://pay.rameezscripts.com" target="_blank" rel="noopener">Donate / Support the project</a>
       </div>
     </section>
   </main>
